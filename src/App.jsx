@@ -13,7 +13,10 @@ const App = () => {
     {path:"/aboutMe", element:<AboutMe/>},
     {path:"/resume", element:<Resume/>},
     {path:"/contact", element:<Contact/>}
-  ]
+  ],
+  {
+    basename: "/Portfolio"
+  }
  }])
   return (
     <>
