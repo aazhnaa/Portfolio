@@ -6,7 +6,7 @@ import Resume from './pages/Resume'
 import Contact from './pages/Contact'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 const App = () => {
-  //creating router :
+  //creating router : 
  const router = createBrowserRouter([{
   path:"/", element:<MainNavigation/>, children:[
     {path:"/", element:<Home/>},
