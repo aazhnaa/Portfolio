@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  /* background-color: #dad7cd; */
+  /* background-color: white; */
+  overflow-x: hidden;
+}
+.rammentto-one {
+  font-family: 'Rammetto One', cursive;
+}
+.Space-Mono{
+  font-family: 'Space Mono', monospace;
+}
+.Inknut-Antiqua{
+  font-family: 'Inknut Antiqua', serif;
+}
+.text-div{
+  background:linear-gradient(to top,#588157,#3A5A40,#344E41);
+}
+
